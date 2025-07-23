@@ -6,11 +6,11 @@
 
 ## Features
 
-- 🔢 Input a custom 2×2 matrix
-- 🎯 Visualize the transformation of standard basis vectors and custom vectors
-- 🧩 Animated transitions from original to transformed vectors
-- 📐 Background grid deformation (optional)
-- 📊 Built with modern web technologies (FastAPI + Plotly)
+- Input a custom 2×2 matrix
+- Visualize the transformation of standard basis vectors and custom vectors
+- Animated transitions from original to transformed vectors
+- Background grid deformation (optional)
+- Built with modern web technologies (FastAPI + Plotly)
 
 ---
 
@@ -29,7 +29,7 @@
 
 1. Clone the repository
 
-```bash
+bash
 git clone https://github.com/zx1998120/LinAlViz.git
 cd LinAlViz
 
@@ -53,5 +53,17 @@ npm run dev
 
 ---
 
-##
+## Example
 
+Input:
+[2,0]
+[0,1]
+- Click “Apply Transformation”
+- Observe how the red vectors animate and transform
+- Try other matrices like shear, scale, or rotation
+
+---
+
+##  License
+
+This project is based on the MIT License
